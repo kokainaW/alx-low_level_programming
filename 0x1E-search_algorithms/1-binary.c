@@ -2,9 +2,9 @@
 
 /**
  * print_array - It prints the contents of an array.
- * @array: The source of the array to print.
- * @l: The left index of the array.
- * @r: The right index of the array.
+ * @array: Source of the array to print.
+ * @l: Left index of the array.
+ * @r: Right index of the array.
  */
 void print_array(int *array, size_t l, size_t r)
 {
@@ -20,10 +20,10 @@ void print_array(int *array, size_t l, size_t r)
 
 /**
  * binary_search_index - It searches a value in a sorted array
- * @array: The array to search in.
- * @l: The left index of the array.
- * @r: The right index of the array.
- * @value: The value to look for.
+ * @array: Array to search in.
+ * @l: Left index of the array.
+ * @r: Right index of the array.
+ * @value: Value to look for.
  *
  * Return: The first index of the value in the array, otherwise -1.
  */
@@ -47,9 +47,9 @@ int binary_search_index(int *array, size_t l, size_t r, int value)
 
 /**
  * binary_search - It searches a value in array using a binary search.
- * @array: The array to search in.
- * @size: The length of the array.
- * @value: The value to look for.
+ * @array: Array to search in.
+ * @size: Length of the array.
+ * @value: Value to look for.
  *
  * Return: The index of the value in the array, otherwise -1.
  */
